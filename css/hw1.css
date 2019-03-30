@@ -1,0 +1,28 @@
+    div {
+        position: relative;
+    }
+    
+    table {
+        border-color: rgb(35, 45, 134);
+        border-style: solid;
+        border-width: thin;
+        position: absolute;
+        margin-top: 100px;
+        margin-left: 300px;
+        padding: 15px;
+        text-align: center;
+        border-collapse: collapse;
+    }
+    
+    th {
+        background-color: aliceblue;
+    }
+    
+    td {
+        padding-left: 3px;
+        padding-right: 3px;
+    }
+    
+    tr:nth-child(even) {
+        background-color: #5ec7f8;
+    }
